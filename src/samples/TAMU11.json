@@ -1,0 +1,136 @@
+{
+    "LPXRpart11": {
+      "userList": ["LPXRpart11"],
+      "userMap": {
+        "LPXRpart11": {
+          "name": "TAMU11",
+          "role": "stagemanager",
+          "performer": false
+        }
+      },
+      "listCue": [
+        {
+          "name": "Spawn_Note",
+          "role": "stagemanager",
+          "target": {},
+          "action": {
+            "type": "call_method_from_object",
+            "object_name": "sockSys",
+            "function_name": "cueSocket",
+            "_cue": {
+              "name": "Spawn_Note",
+              "sceneLink": "https://showtimexr.com/scenes/kUUWknD/mockgenerate",
+              "role": {},
+              "target": {
+                "type": "glb",
+                "role": "individual",
+                "name": "TAMU11",
+                "dest": "url",
+                "src": "https://showtimexr.com/files/d49d78ba-772d-446a-9287-c3df22801a15.png"
+              },
+              "action": {
+                "type": "spawn_item",
+                "pos": {
+                  "x": 0,
+                  "y": 1,
+                  "z": 0
+                },
+                "rot": {
+                  "x": 0,
+                  "y": 0,
+                  "z": 0
+                },
+                "scale": {
+                  "x": 1,
+                  "y": 1,
+                  "z": 1
+                }
+              }
+            }
+          },
+          "trig": {
+            "type": "button",
+            "groupChain": "TAMU1_group",
+            "time": 0
+          }
+        },
+        {
+          "name": "Move_Note",
+          "role": "stagemanager",
+          "target": {},
+          "action": {
+            "type": "call_method_from_object",
+            "object_name": "sockSys",
+            "function_name": "cueSocket",
+            "_cue": {
+              "name": "Move_Note",
+              "sceneLink": "https://showtimexr.com/scenes/kUUWknD/mockgenerate",
+              "target": {
+                "role": "individual",
+                "name": "TAMU11",
+                "aspect": "position"
+              },
+              "action": {
+                "type": "socket_manipulate_object",
+                "mapItem": "Spawn_Note",
+                "attr": "object3D",
+                "anime": {
+                  "targets": "position",
+                  "delay": 1000,
+                  "loop": false,
+                  "autoplay": true,
+                  "easing": "linear",
+                  "duration": 1000
+                },
+                "timelines": [
+                  {
+                    "x": 0,
+                    "y": 10,
+                    "z": 0,
+                    "delay": 0,
+                    "easing": "easeInOutSine",
+                    "duration": 5000
+                  }
+                ]
+              }
+            }
+          },
+          "trig": {
+            "type": "button",
+            "groupChain": "TAMU2_group",
+            "time": 0
+          }
+        },
+        {
+          "name": "Delete_Note",
+          "role": "stagemanager",
+          "target": {},
+          "action": {
+            "type": "call_method_from_object",
+            "object_name": "sockSys",
+            "function_name": "cueSocket",
+            "_cue": {
+              "name": "Delete_Note",
+              "sceneLink": "https://showtimexr.com/scenes/kUUWknD/mockgenerate",
+              "target": {
+                "role": "individual",
+                "name": "TAMU11"
+              },
+              "action": {
+                "type": "delete",
+                "src": "Spawn_Note"
+              }
+            }
+          },
+          "trig": {
+            "type": "button",
+            "groupChain": "TAMU3_group",
+            "time": 0
+          }
+        }
+      ],
+      "objMap": {},
+      "animMap": {}
+    }
+  }
+  
