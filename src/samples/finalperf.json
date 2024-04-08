@@ -1,0 +1,1496 @@
+"LPXRFinalPerf": {
+    "userList": ["LPXRSM", "LPXRPart1", "LPXRPart2", "LPXRPart3", "LPXRCam1", "LPXRCam2", "LPXRCam3"],
+    "userMap": {
+      "LPXRSM": {
+        "name": "___",
+        "role": "stagemanager",
+        "performer": false
+      },
+      "LPXRPart1": {
+        "name": "Participant_1",
+        "role": "participant",
+        "performer": false
+      },
+      "LPXRPart2": {
+        "name": "Participant_2",
+        "role": "participant",
+        "performer": false
+      },
+      "LPXRPart3": {
+        "name": "Participant_3",
+        "role": "participant",
+        "performer": false
+      },
+      "LPXRCam1": {
+        "name": "Camera_1",
+        "role": "cinematic",
+        "performer": false
+      },
+      "LPXRCam2": {
+        "name": "Camera_2",
+        "role": "cinematic",
+        "performer": false
+      },
+      "LPXRCam3": {
+        "name": "Camera_3",
+        "role": "cinematic",
+        "performer": false
+      }
+    },
+    "listCue": [
+      {
+        "name": "Participant_1_Top_Of_Show_Position",
+        "role": "stagemanager",
+        "target": {},
+        "action": {
+          "type": "call_method_from_object",
+          "object_name": "sockSys",
+          "function_name": "cueSocket",
+          "_cue": {
+            "name": "Participant_1_Top_Of_Show_Position",
+            "sceneLink": "https://showtimexr.com/scenes/s7qL5Fe/default-scene",
+            "target": {
+              "role": "individual",
+              "name": "Participant_1",
+              "aspect": "position"
+            },
+            "action": {
+              "type": "manipulate_avatar",
+              "attr": "object3D",
+              "anime": {
+                "targets": "position",
+                "delay": 1000,
+                "loop": false,
+                "autoplay": false,
+                "easing": "easeInOutSine",
+                "duration": 1000
+              },
+              "timelines": [
+                {
+                  "x": 0,
+                  "y": 0.1,
+                  "z": 12,
+                  "duration": 0,
+                  "delay": 0,
+                  "easing": "easeInOutSine"
+                }
+              ]
+            }
+          }
+        },
+        "trig": {
+          "type": "button",
+          "groupChain": "Participant_1_Top_Of_Show_Places_group",
+          "time": 0
+        }
+      },
+      {
+        "name": "Participant_1_Top_Of_Show_Rotation",
+        "role": "stagemanager",
+        "target": {},
+        "action": {
+          "type": "call_method_from_object",
+          "object_name": "sockSys",
+          "function_name": "cueSocket",
+          "_cue": {
+            "name": "Participant_1_Top_Of_Show_Rotation",
+            "sceneLink": "https://showtimexr.com/scenes/s7qL5Fe/default-scene",
+            "target": {
+              "role": "individual",
+              "name": "Participant_1",
+              "aspect": "rotation"
+            },
+            "action": {
+              "type": "manipulate_avatar",
+              "attr": "object3D",
+              "anime": {
+                "targets": "rotation",
+                "delay": 1000,
+                "loop": false,
+                "autoplay": false,
+                "easing": "easeInOutSine",
+                "duration": 1000
+              },
+              "timelines": [
+                {
+                  "x": 0,
+                  "y": 0,
+                  "z": 0,
+                  "duration": 0,
+                  "delay": 0,
+                  "easing": "easeInOutSine"
+                }
+              ]
+            }
+          }
+        },
+        "trig": {
+          "type": "button",
+          "groupChain": "Participant_1_Top_Of_Show_Places_group",
+          "time": 0
+        }
+      },
+      {
+        "name": "Participant_2_Top_Of_Show_Position",
+        "role": "stagemanager",
+        "target": {},
+        "action": {
+          "type": "call_method_from_object",
+          "object_name": "sockSys",
+          "function_name": "cueSocket",
+          "_cue": {
+            "name": "Participant_2_Top_Of_Show_Position",
+            "sceneLink": "https://showtimexr.com/scenes/s7qL5Fe/default-scene",
+            "target": {
+              "role": "individual",
+              "name": "Participant_2",
+              "aspect": "position"
+            },
+            "action": {
+              "type": "manipulate_avatar",
+              "attr": "object3D",
+              "anime": {
+                "targets": "position",
+                "delay": 1000,
+                "loop": false,
+                "autoplay": false,
+                "easing": "easeInOutSine",
+                "duration": 1000
+              },
+              "timelines": [
+                {
+                  "x": -12,
+                  "y": 0.1,
+                  "z": -6,
+                  "duration": 0,
+                  "delay": 0,
+                  "easing": "easeInOutSine"
+                }
+              ]
+            }
+          }
+        },
+        "trig": {
+          "type": "button",
+          "groupChain": "Participant_2_Top_Of_Show_Places_group",
+          "time": 0
+        }
+      },
+      {
+        "name": "Participant_2_Top_Of_Show_Rotation",
+        "role": "stagemanager",
+        "target": {},
+        "action": {
+          "type": "call_method_from_object",
+          "object_name": "sockSys",
+          "function_name": "cueSocket",
+          "_cue": {
+            "name": "Participant_2_Top_Of_Show_Rotation",
+            "sceneLink": "https://showtimexr.com/scenes/s7qL5Fe/default-scene",
+            "target": {
+              "role": "individual",
+              "name": "Participant_2",
+              "aspect": "rotation"
+            },
+            "action": {
+              "type": "manipulate_avatar",
+              "attr": "object3D",
+              "anime": {
+                "targets": "rotation",
+                "delay": 1000,
+                "loop": false,
+                "autoplay": false,
+                "easing": "easeInOutSine",
+                "duration": 1000
+              },
+              "timelines": [
+                {
+                  "x": 0,
+                  "y": -2.0943951023931953,
+                  "z": 0,
+                  "duration": 0,
+                  "delay": 0,
+                  "easing": "easeInOutSine"
+                }
+              ]
+            }
+          }
+        },
+        "trig": {
+          "type": "button",
+          "groupChain": "Participant_2_Top_Of_Show_Places_group",
+          "time": 0
+        }
+      },
+      {
+        "name": "Participant_3_Top_Of_Show_Position",
+        "role": "stagemanager",
+        "target": {},
+        "action": {
+          "type": "call_method_from_object",
+          "object_name": "sockSys",
+          "function_name": "cueSocket",
+          "_cue": {
+            "name": "Participant_3_Top_Of_Show_Position",
+            "sceneLink": "https://showtimexr.com/scenes/s7qL5Fe/default-scene",
+            "target": {
+              "role": "individual",
+              "name": "Participant_3",
+              "aspect": "position"
+            },
+            "action": {
+              "type": "manipulate_avatar",
+              "attr": "object3D",
+              "anime": {
+                "targets": "position",
+                "delay": 1000,
+                "loop": false,
+                "autoplay": false,
+                "easing": "easeInOutSine",
+                "duration": 1000
+              },
+              "timelines": [
+                {
+                  "x": 12,
+                  "y": 0.1,
+                  "z": -6,
+                  "duration": 0,
+                  "delay": 0,
+                  "easing": "easeInOutSine"
+                }
+              ]
+            }
+          }
+        },
+        "trig": {
+          "type": "button",
+          "groupChain": "Participant_3_Top_Of_Show_Places_group",
+          "time": 0
+        }
+      },
+      {
+        "name": "Participant_3_Top_Of_Show_Rotation",
+        "role": "stagemanager",
+        "target": {},
+        "action": {
+          "type": "call_method_from_object",
+          "object_name": "sockSys",
+          "function_name": "cueSocket",
+          "_cue": {
+            "name": "Participant_3_Top_Of_Show_Rotation",
+            "sceneLink": "https://showtimexr.com/scenes/s7qL5Fe/default-scene",
+            "target": {
+              "role": "individual",
+              "name": "Participant_3",
+              "aspect": "rotation"
+            },
+            "action": {
+              "type": "manipulate_avatar",
+              "attr": "object3D",
+              "anime": {
+                "targets": "rotation",
+                "delay": 1000,
+                "loop": false,
+                "autoplay": false,
+                "easing": "easeInOutSine",
+                "duration": 1000
+              },
+              "timelines": [
+                {
+                  "x": 0,
+                  "y": 2.0943951023931953,
+                  "z": 0,
+                  "duration": 0,
+                  "delay": 0,
+                  "easing": "easeInOutSine"
+                }
+              ]
+            }
+          }
+        },
+        "trig": {
+          "type": "button",
+          "groupChain": "Participant_3_Top_Of_Show_Places_group",
+          "time": 0
+        }
+      },
+      {
+        "name": "Participants_Top_Of_Show_Avatars",
+        "role": "stagemanager",
+        "target": {},
+        "action": {
+          "type": "call_method_from_object",
+          "object_name": "sockSys",
+          "function_name": "cueSocket",
+          "_cue": {
+            "name": "Participants_Top_Of_Show_Avatars",
+            "sceneLink": "https://showtimexr.com/scenes/s7qL5Fe/default-scene",
+            "role": "stagemanager",
+            "target": {
+              "role": "participant"            
+            },
+            "action": {
+              "type": "change_avatar",
+              "link": "https://showtimexr.com/avatars/ZhXAETm"
+            }
+          }
+        },
+        "trig": {
+          "type": "button",
+          "groupChain": "Participants_Top_Of_Show_Avatars_group",
+          "time": 0
+        }
+      },
+      {
+        "name": "Participants_Top_Of_Show_Scale",
+        "role": "stagemanager",
+        "target": {},
+        "action": {
+          "type": "call_method_from_object",
+          "object_name": "sockSys",
+          "function_name": "cueSocket",
+          "_cue": {
+            "name": "Participants_Top_Of_Show_Scale",
+            "sceneLink": "https://showtimexr.com/scenes/s7qL5Fe/default-scene",
+            "target": {
+              "role": "participant",
+              "aspect": "scale"
+            },
+            "action": {
+              "type": "manipulate_avatar",
+              "attr": "object3D",
+              "anime": {
+                "targets": "scale",
+                "delay": 1000,
+                "loop": false,
+                "autoplay": false,
+                "easing": "easeInOutSine",
+                "duration": 1000
+              },
+              "timelines": [
+                {
+                  "x": 3,
+                  "y": 3,
+                  "z": 3,
+                  "duration": 0,
+                  "delay": 0,
+                  "easing": "easeInOutSine"
+                }
+              ]
+            }
+          }
+        },
+        "trig": {
+          "type": "button",
+          "groupChain": "Participants_Top_Of_Show_Scale_group",
+          "time": 0
+        }
+      },
+      {
+        "name": "Participants_Top_Of_Show_Disable_Motion",
+        "role": "stagemanager",
+        "target": {},
+        "action": {
+          "type": "call_method_from_object",
+          "object_name": "sockSys",
+          "function_name": "cueSocket",
+          "_cue": {
+            "name": "Participants_Top_Of_Show_Disable_Motion",
+            "sceneLink": "https://showtimexr.com/scenes/s7qL5Fe/default-scene",
+            "target": {
+              "role": "participant"
+            },
+            "action": {
+              "type": "socket_toggle_movement",
+              "movement": true
+            }
+          }
+        },
+        "trig": {
+          "type": "button",
+          "groupChain": "Participants_Top_Of_Show_Disable_Motion_group",
+          "time": 0
+        }
+      },
+      {
+        "name": "Camera_Top_Of_Show_Avatars",
+        "role": "stagemanager",
+        "target": {},
+        "action": {
+          "type": "call_method_from_object",
+          "object_name": "sockSys",
+          "function_name": "cueSocket",
+          "_cue": {
+            "name": "Camera_Top_Of_Show_Avatars",
+            "sceneLink": "https://showtimexr.com/scenes/s7qL5Fe/default-scene",
+            "role": "stagemanager",
+            "target": {
+              "role": "cinematic"            
+            },
+            "action": {
+              "type": "change_avatar",
+              "link": "https://showtimexr.com/files/1e2a6ab1-e92d-4014-a614-ea42adf6c98e.glb"
+            }
+          }
+        },
+        "trig": {
+          "type": "button",
+          "groupChain": "Camera_Top_Of_Show_Avatars_group",
+          "time": 0
+        }
+      },
+      {
+        "name": "Cameras_Top_Of_Show_Positions",
+        "role": "stagemanager",
+        "target": {},
+        "action": {
+          "type": "call_method_from_object",
+          "object_name": "sockSys",
+          "function_name": "cueSocket",
+          "_cue": {
+            "name": "Cameras_Top_Of_Show_Positions",
+            "sceneLink": "https://showtimexr.com/scenes/s7qL5Fe/default-scene",
+            "target": {
+              "role": "cinematic",
+              "aspect": "position"
+            },
+            "action": {
+              "type": "manipulate_avatar",
+              "attr": "object3D",
+              "anime": {
+                "targets": "position",
+                "delay": 1000,
+                "loop": false,
+                "autoplay": false,
+                "easing": "easeInOutSine",
+                "duration": 1000
+              },
+              "timelines": [
+                {
+                  "x": 0,
+                  "y": 0.1,
+                  "z": 0,
+                  "duration": 0,
+                  "delay": 0,
+                  "easing": "easeInOutSine"
+                }
+              ]
+            }
+          }
+        },
+        "trig": {
+          "type": "button",
+          "groupChain": "Cameras_Top_Of_Show_Places_group",
+          "time": 0
+        }
+      },
+      {
+        "name": "Camera_1_Top_Of_Show_Rotation",
+        "role": "stagemanager",
+        "target": {},
+        "action": {
+          "type": "call_method_from_object",
+          "object_name": "sockSys",
+          "function_name": "cueSocket",
+          "_cue": {
+            "name": "Camera_1_Top_Of_Show_Rotation",
+            "sceneLink": "https://showtimexr.com/scenes/s7qL5Fe/default-scene",
+            "target": {
+              "role": "individual",
+              "name": "Camera_1",
+              "aspect": "rotation"
+            },
+            "action": {
+              "type": "manipulate_avatar",
+              "attr": "object3D",
+              "anime": {
+                "targets": "rotation",
+                "delay": 1000,
+                "loop": false,
+                "autoplay": false,
+                "easing": "easeInOutSine",
+                "duration": 1000
+              },
+              "timelines": [
+                {
+                  "x": 0,
+                  "y": -3.141592653589793,
+                  "z": 0,
+                  "duration": 0,
+                  "delay": 0,
+                  "easing": "easeInOutSine"
+                }
+              ]
+            }
+          }
+        },
+        "trig": {
+          "type": "button",
+          "groupChain": "Cameras_Top_Of_Show_Places_group",
+          "time": 0
+        }
+      },
+      {
+        "name": "Camera_2_Top_Of_Show_Rotation",
+        "role": "stagemanager",
+        "target": {},
+        "action": {
+          "type": "call_method_from_object",
+          "object_name": "sockSys",
+          "function_name": "cueSocket",
+          "_cue": {
+            "name": "Camera_2_Top_Of_Show_Rotation",
+            "sceneLink": "https://showtimexr.com/scenes/s7qL5Fe/default-scene",
+            "target": {
+              "role": "individual",
+              "name": "Camera_2",
+              "aspect": "rotation"
+            },
+            "action": {
+              "type": "manipulate_avatar",
+              "attr": "object3D",
+              "anime": {
+                "targets": "rotation",
+                "delay": 1000,
+                "loop": false,
+                "autoplay": false,
+                "easing": "easeInOutSine",
+                "duration": 1000
+              },
+              "timelines": [
+                {
+                  "x": 0,
+                  "y": -2.0943951023931957,
+                  "z": 0,
+                  "duration": 0,
+                  "delay": 0,
+                  "easing": "easeInOutSine"
+                }
+              ]
+            }
+          }
+        },
+        "trig": {
+          "type": "button",
+          "groupChain": "Cameras_Top_Of_Show_Places_group",
+          "time": 0
+        }
+      },
+      {
+        "name": "Camera_3_Top_Of_Show_Rotation",
+        "role": "stagemanager",
+        "target": {},
+        "action": {
+          "type": "call_method_from_object",
+          "object_name": "sockSys",
+          "function_name": "cueSocket",
+          "_cue": {
+            "name": "Camera_3_Top_Of_Show_Rotation",
+            "sceneLink": "https://showtimexr.com/scenes/s7qL5Fe/default-scene",
+            "target": {
+              "role": "individual",
+              "name": "Camera_3",
+              "aspect": "rotation"
+            },
+            "action": {
+              "type": "manipulate_avatar",
+              "attr": "object3D",
+              "anime": {
+                "targets": "rotation",
+                "delay": 1000,
+                "loop": false,
+                "autoplay": false,
+                "easing": "easeInOutSine",
+                "duration": 1000
+              },
+              "timelines": [
+                {
+                  "x": 0,
+                  "y": -1.0471975511965979,
+                  "z": 0,
+                  "duration": 0,
+                  "delay": 0,
+                  "easing": "easeInOutSine"
+                }
+              ]
+            }
+          }
+        },
+        "trig": {
+          "type": "button",
+          "groupChain": "Cameras_Top_Of_Show_Places_group",
+          "time": 0
+        }
+      },
+      {
+        "name": "Spawn_Narrator",
+        "role": "stagemanager",
+        "target": {},
+        "action": {
+          "type": "call_method_from_object",
+          "object_name": "sockSys",
+          "function_name": "cueSocket",
+          "_cue": {
+            "name": "Spawn_Narrator",
+            "sceneLink": "https://showtimexr.com/scenes/s7qL5Fe/default-scene",
+            "target": {
+              "type": "glb",
+              "role": "individual",
+              "name": "___",
+              "dest": "url",
+              "src": "https://showtimexr.com/files/8ae1392c-4b5b-43f5-b4b0-db1e6a2bcb65.glb"
+            },
+            "action": {
+              "type": "spawn_item",
+              "pos": {
+                "x": 0,
+                "y": 0,
+                "z": 6
+              },
+              "rot": {
+                "x": 0,
+                "y": 0,
+                "z": 0
+              },
+              "scale": {
+                "x": 0.01,
+                "y": 0.01,
+                "z": 0.01
+              }
+            }
+          }
+        },
+        "trig": {
+          "type": "button",
+          "groupChain": "Prespawn_Props_group",
+          "time": 0
+        }
+      },
+      {
+        "name": "Spawn_Hoenikker",
+        "role": "stagemanager",
+        "target": {},
+        "action": {
+          "type": "call_method_from_object",
+          "object_name": "sockSys",
+          "function_name": "cueSocket",
+          "_cue": {
+            "name": "Spawn_Hoenikker",
+            "sceneLink": "https://showtimexr.com/scenes/s7qL5Fe/default-scene",
+            "target": {
+              "type": "glb",
+              "role": "individual",
+              "name": "___",
+              "dest": "url",
+              "src": "https://showtimexr.com/files/96a1b4d4-f882-4095-a76e-fcbb4d473108.glb"
+            },
+            "action": {
+              "type": "spawn_item",
+              "pos": {
+                "x": 0,
+                "y": 0,
+                "z": -6
+              },
+              "rot": {
+                "x": 0,
+                "y": 0,
+                "z": 0
+              },
+              "scale": {
+                "x": 0.001,
+                "y": 0.001,
+                "z": 0.001
+              }
+            }
+          }
+        },
+        "trig": {
+          "type": "button",
+          "groupChain": "Prespawn_Props_group",
+          "time": 0
+        }
+      },
+      {
+        "name": "Spawn_Part1_Ice9",
+        "role": "stagemanager",
+        "target": {},
+        "action": {
+          "type": "call_method_from_object",
+          "object_name": "sockSys",
+          "function_name": "cueSocket",
+          "_cue": {
+            "name": "Spawn_Part1_Ice9",
+            "sceneLink": "https://showtimexr.com/scenes/s7qL5Fe/default-scene",
+            "target": {
+              "type": "glb",
+              "role": "individual",
+              "name": "Participant_1",
+              "dest": "url",
+              "src": "https://showtimexr.com/files/f00319d3-065f-488e-b2fe-db888d25859e.glb"
+            },
+            "action": {
+              "type": "spawn_item",
+              "pos": {
+                "x": 0,
+                "y": 0.1,
+                "z": 12
+              },
+              "rot": {
+                "x": 0,
+                "y": 0,
+                "z": 0
+              },
+              "scale": {
+                "x": 0.0001,
+                "y": 0.0001,
+                "z": 0.0001
+              }
+            }
+          }
+        },
+        "trig": {
+          "type": "button",
+          "groupChain": "Prespawn_Props_group",
+          "time": 0
+        }
+      },
+      {
+        "name": "Spawn_Part2_Ice9",
+        "role": "stagemanager",
+        "target": {},
+        "action": {
+          "type": "call_method_from_object",
+          "object_name": "sockSys",
+          "function_name": "cueSocket",
+          "_cue": {
+            "name": "Spawn_Part2_Ice9",
+            "sceneLink": "https://showtimexr.com/scenes/s7qL5Fe/default-scene",
+            "target": {
+              "type": "glb",
+              "role": "individual",
+              "name": "Participant_2",
+              "dest": "url",
+              "src": "https://showtimexr.com/files/f00319d3-065f-488e-b2fe-db888d25859e.glb"
+            },
+            "action": {
+              "type": "spawn_item",
+              "pos": {
+                "x": -12,
+                "y": 0.1,
+                "z": -6
+              },
+              "rot": {
+                "x": 0,
+                "y": 0,
+                "z": 0
+              },
+              "scale": {
+                "x": 0.0001,
+                "y": 0.0001,
+                "z": 0.0001
+              }
+            }
+          }
+        },
+        "trig": {
+          "type": "button",
+          "groupChain": "Prespawn_Props_group",
+          "time": 0
+        }
+      },
+      {
+        "name": "Spawn_Part3_Ice9",
+        "role": "stagemanager",
+        "target": {},
+        "action": {
+          "type": "call_method_from_object",
+          "object_name": "sockSys",
+          "function_name": "cueSocket",
+          "_cue": {
+            "name": "Spawn_Part3_Ice9",
+            "sceneLink": "https://showtimexr.com/scenes/s7qL5Fe/default-scene",
+            "target": {
+              "type": "glb",
+              "role": "individual",
+              "name": "Participant_3",
+              "dest": "url",
+              "src": "https://showtimexr.com/files/f00319d3-065f-488e-b2fe-db888d25859e.glb"
+            },
+            "action": {
+              "type": "spawn_item",
+              "pos": {
+                "x": 12,
+                "y": 0.1,
+                "z": -6
+              },
+              "rot": {
+                "x": 0,
+                "y": 0,
+                "z": 0
+              },
+              "scale": {
+                "x": 0.0001,
+                "y": 0.0001,
+                "z": 0.0001
+              }
+            }
+          }
+        },
+        "trig": {
+          "type": "button",
+          "groupChain": "Prespawn_Props_group",
+          "time": 0
+        }
+      },
+      {
+        "name": "Enter_Narrator_Position",
+        "role": "stagemanager",
+        "target": {},
+        "action": {
+          "type": "call_method_from_object",
+          "object_name": "sockSys",
+          "function_name": "cueSocket",
+          "_cue": {
+            "name": "Enter_Narrator_Position",
+            "sceneLink": "https://showtimexr.com/scenes/s7qL5Fe/default-scene",
+            "target": {
+              "role": "individual",
+              "name": "___",
+              "aspect": "position"
+            },
+            "action": {
+              "type": "socket_manipulate_object",
+              "mapItem": "Spawn_Narrator",
+              "attr": "object3D",
+              "anime": {
+                "targets": "position",
+                "delay": 1000,
+                "loop": false,
+                "autoplay": true,
+                "easing": "linear",
+                "duration": 1000
+              },
+              "timelines": [
+                {
+                  "x": 6,
+                  "y": 3,
+                  "z": 0,
+                  "delay": 0,
+                  "easing": "easeInOutSine",
+                  "duration": 5000
+                }
+              ]
+            }
+          }
+        },
+        "trig": {
+          "type": "button",
+          "groupChain": "Enter_Narrator_group",
+          "time": 0
+        }
+      },
+      {
+        "name": "Enter_Narrator_Scale",
+        "role": "stagemanager",
+        "target": {},
+        "action": {
+          "type": "call_method_from_object",
+          "object_name": "sockSys",
+          "function_name": "cueSocket",
+          "_cue": {
+            "name": "Enter_Narrator_Scale",
+            "sceneLink": "https://showtimexr.com/scenes/s7qL5Fe/default-scene",
+            "target": {
+              "role": "individual",
+              "name": "___",
+              "aspect": "scale"
+            },
+            "action": {
+              "type": "socket_manipulate_object",
+              "mapItem": "Spawn_Narrator",
+              "attr": "object3D",
+              "anime": {
+                "targets": "scale",
+                "delay": 1000,
+                "loop": false,
+                "autoplay": true,
+                "easing": "linear",
+                "duration": 1000
+              },
+              "timelines": [
+                {
+                  "x": 1,
+                  "y": 1,
+                  "z": 1,
+                  "delay": 0,
+                  "easing": "easeInOutSine",
+                  "duration": 5000
+                }
+              ]
+            }
+          }
+        },
+        "trig": {
+          "type": "button",
+          "groupChain": "Enter_Narrator_group",
+          "time": 0
+        }
+      },
+      {
+        "name": "Enter_Narrator_Rotation",
+        "role": "stagemanager",
+        "target": {},
+        "action": {
+          "type": "call_method_from_object",
+          "object_name": "sockSys",
+          "function_name": "cueSocket",
+          "_cue": {
+            "name": "Enter_Narrator_Rotation",
+            "sceneLink": "https://showtimexr.com/scenes/s7qL5Fe/default-scene",
+            "target": {
+              "role": "individual",
+              "name": "___",
+              "aspect": "rotation"
+            },
+            "action": {
+              "type": "socket_manipulate_object",
+              "mapItem": "Spawn_Narrator",
+              "attr": "object3D",
+              "anime": {
+                "targets": "rotation",
+                "delay": 1000,
+                "loop": false,
+                "autoplay": true,
+                "easing": "linear",
+                "duration": 1000
+              },
+              "timelines": [
+                {
+                  "x": 0,
+                  "y": 4.71238898038469,
+                  "z": 0,
+                  "delay": 0,
+                  "easing": "easeInOutSine",
+                  "duration": 5000
+                }
+              ]
+            }
+          }
+        },
+        "trig": {
+          "type": "button",
+          "groupChain": "Enter_Narrator_group",
+          "time": 0
+        }
+      },
+      {
+        "name": "Enter_Hoenikker_Position",
+        "role": "stagemanager",
+        "target": {},
+        "action": {
+          "type": "call_method_from_object",
+          "object_name": "sockSys",
+          "function_name": "cueSocket",
+          "_cue": {
+            "name": "Enter_Hoenikker_Position",
+            "sceneLink": "https://showtimexr.com/scenes/s7qL5Fe/default-scene",
+            "target": {
+              "role": "individual",
+              "name": "___",
+              "aspect": "position"
+            },
+            "action": {
+              "type": "socket_manipulate_object",
+              "mapItem": "Spawn_Hoenikker",
+              "attr": "object3D",
+              "anime": {
+                "targets": "position",
+                "delay": 1000,
+                "loop": false,
+                "autoplay": true,
+                "easing": "linear",
+                "duration": 1000
+              },
+              "timelines": [
+                {
+                  "x": -6,
+                  "y": 3,
+                  "z": 0,
+                  "delay": 0,
+                  "easing": "easeInOutSine",
+                  "duration": 5000
+                }
+              ]
+            }
+          }
+        },
+        "trig": {
+          "type": "button",
+          "groupChain": "Enter_Hoenikker_group",
+          "time": 0
+        }
+      },
+      {
+        "name": "Enter_Hoenikker_Scale",
+        "role": "stagemanager",
+        "target": {},
+        "action": {
+          "type": "call_method_from_object",
+          "object_name": "sockSys",
+          "function_name": "cueSocket",
+          "_cue": {
+            "name": "Enter_Hoenikker_Scale",
+            "sceneLink": "https://showtimexr.com/scenes/s7qL5Fe/default-scene",
+            "target": {
+              "role": "individual",
+              "name": "___",
+              "aspect": "scale"
+            },
+            "action": {
+              "type": "socket_manipulate_object",
+              "mapItem": "Spawn_Hoenikker",
+              "attr": "object3D",
+              "anime": {
+                "targets": "scale",
+                "delay": 1000,
+                "loop": false,
+                "autoplay": true,
+                "easing": "linear",
+                "duration": 1000
+              },
+              "timelines": [
+                {
+                  "x": 0.02,
+                  "y": 0.02,
+                  "z": 0.02,
+                  "delay": 0,
+                  "easing": "easeInOutSine",
+                  "duration": 5000
+                }
+              ]
+            }
+          }
+        },
+        "trig": {
+          "type": "button",
+          "groupChain": "Enter_Hoenikker_group",
+          "time": 0
+        }
+      },
+      {
+        "name": "Enter_Hoenikker_Rotation",
+        "role": "stagemanager",
+        "target": {},
+        "action": {
+          "type": "call_method_from_object",
+          "object_name": "sockSys",
+          "function_name": "cueSocket",
+          "_cue": {
+            "name": "Enter_Hoenikker_Rotation",
+            "sceneLink": "https://showtimexr.com/scenes/s7qL5Fe/default-scene",
+            "target": {
+              "role": "individual",
+              "name": "___",
+              "aspect": "rotation"
+            },
+            "action": {
+              "type": "socket_manipulate_object",
+              "mapItem": "Spawn_Hoenikker",
+              "attr": "object3D",
+              "anime": {
+                "targets": "rotation",
+                "delay": 1000,
+                "loop": false,
+                "autoplay": true,
+                "easing": "linear",
+                "duration": 1000
+              },
+              "timelines": [
+                {
+                  "x": 0,
+                  "y": 7.853981633974483,
+                  "z": 0,
+                  "delay": 0,
+                  "easing": "easeInOutSine",
+                  "duration": 5000
+                }
+              ]
+            }
+          }
+        },
+        "trig": {
+          "type": "button",
+          "groupChain": "Enter_Hoenikker_group",
+          "time": 0
+        }
+      },
+      {
+        "name": "Enter_Participant_1_Avatar",
+        "role": "stagemanager",
+        "target": {},
+        "action": {
+          "type": "call_method_from_object",
+          "object_name": "sockSys",
+          "function_name": "cueSocket",
+          "_cue": {
+            "name": "Enter_Participant_1_Avatar",
+            "sceneLink": "https://showtimexr.com/scenes/s7qL5Fe/default-scene",
+            "role": "stagemanager",
+            "target": {
+              "role": "individual",
+              "name": "Participant_1"            
+            },
+            "action": {
+              "type": "change_avatar",
+              "link": "https://showtimexr.com/files/1e2a6ab1-e92d-4014-a614-ea42adf6c98e.glb"
+            }
+          }
+        },
+        "trig": {
+          "type": "button",
+          "groupChain": "Enter_Participant_1_group",
+          "time": 0
+        }
+      },
+      {
+        "name": "Enter_Part1_Ice9_Position",
+        "role": "stagemanager",
+        "target": {},
+        "action": {
+          "type": "call_method_from_object",
+          "object_name": "sockSys",
+          "function_name": "cueSocket",
+          "_cue": {
+            "name": "Enter_Part1_Ice9_Position",
+            "sceneLink": "https://showtimexr.com/scenes/s7qL5Fe/default-scene",
+            "target": {
+              "role": "individual",
+              "name": "Participant_1",
+              "aspect": "position"
+            },
+            "action": {
+              "type": "socket_manipulate_object",
+              "mapItem": "Spawn_Part1_Ice9",
+              "attr": "object3D",
+              "anime": {
+                "targets": "position",
+                "delay": 1000,
+                "loop": false,
+                "autoplay": true,
+                "easing": "linear",
+                "duration": 1000
+              },
+              "timelines": [
+                {
+                "x": 11,
+                "y": 3,
+                "z": -5,
+                  "delay": 0,
+                  "easing": "easeInOutSine",
+                  "duration": 5000
+                }
+              ]
+            }
+          }
+        },
+        "trig": {
+          "type": "button",
+          "groupChain": "Enter_Part1_Ice9_group",
+          "time": 0
+        }
+      },
+      {
+        "name": "Enter_Part1_Ice9_Scale",
+        "role": "stagemanager",
+        "target": {},
+        "action": {
+          "type": "call_method_from_object",
+          "object_name": "sockSys",
+          "function_name": "cueSocket",
+          "_cue": {
+            "name": "Enter_Part1_Ice9_Scale",
+            "sceneLink": "https://showtimexr.com/scenes/s7qL5Fe/default-scene",
+            "target": {
+              "role": "individual",
+              "name": "Participant_1",
+              "aspect": "scale"
+            },
+            "action": {
+              "type": "socket_manipulate_object",
+              "mapItem": "Spawn_Part1_Ice9",
+              "attr": "object3D",
+              "anime": {
+                "targets": "scale",
+                "delay": 1000,
+                "loop": false,
+                "autoplay": true,
+                "easing": "linear",
+                "duration": 1000
+              },
+              "timelines": [
+                {
+                  "x": 0.02,
+                  "y": 0.02,
+                  "z": 0.02,
+                  "delay": 0,
+                  "easing": "easeInOutSine",
+                  "duration": 5000
+                }
+              ]
+            }
+          }
+        },
+        "trig": {
+          "type": "button",
+          "groupChain": "Enter_Part1_Ice9_group",
+          "time": 0
+        }
+      },
+      {
+        "name": "Enter_Participant_2_Avatar",
+        "role": "stagemanager",
+        "target": {},
+        "action": {
+          "type": "call_method_from_object",
+          "object_name": "sockSys",
+          "function_name": "cueSocket",
+          "_cue": {
+            "name": "Enter_Participant_2_Avatar",
+            "sceneLink": "https://showtimexr.com/scenes/s7qL5Fe/default-scene",
+            "role": "stagemanager",
+            "target": {
+              "role": "individual",
+              "name": "Participant_2"            
+            },
+            "action": {
+              "type": "change_avatar",
+              "link": "https://showtimexr.com/files/1e2a6ab1-e92d-4014-a614-ea42adf6c98e.glb"
+            }
+          }
+        },
+        "trig": {
+          "type": "button",
+          "groupChain": "Enter_Participant_2_group",
+          "time": 0
+        }
+      },
+      {
+        "name": "Enter_Part2_Ice9_Position",
+        "role": "stagemanager",
+        "target": {},
+        "action": {
+          "type": "call_method_from_object",
+          "object_name": "sockSys",
+          "function_name": "cueSocket",
+          "_cue": {
+            "name": "Enter_Part2_Ice9_Position",
+            "sceneLink": "https://showtimexr.com/scenes/s7qL5Fe/default-scene",
+            "target": {
+              "role": "individual",
+              "name": "Participant_2",
+              "aspect": "position"
+            },
+            "action": {
+              "type": "socket_manipulate_object",
+              "mapItem": "Spawn_Part2_Ice9",
+              "attr": "object3D",
+              "anime": {
+                "targets": "position",
+                "delay": 1000,
+                "loop": false,
+                "autoplay": true,
+                "easing": "linear",
+                "duration": 1000
+              },
+              "timelines": [
+                {
+                  "x": -11,
+                  "y": 3,
+                  "z": -5,
+                  "delay": 0,
+                  "easing": "easeInOutSine",
+                  "duration": 5000
+                }
+              ]
+            }
+          }
+        },
+        "trig": {
+          "type": "button",
+          "groupChain": "Enter_Part2_Ice9_group",
+          "time": 0
+        }
+      },
+      {
+        "name": "Enter_Part2_Ice9_Scale",
+        "role": "stagemanager",
+        "target": {},
+        "action": {
+          "type": "call_method_from_object",
+          "object_name": "sockSys",
+          "function_name": "cueSocket",
+          "_cue": {
+            "name": "Enter_Part2_Ice9_Scale",
+            "sceneLink": "https://showtimexr.com/scenes/s7qL5Fe/default-scene",
+            "target": {
+              "role": "individual",
+              "name": "Participant_2",
+              "aspect": "scale"
+            },
+            "action": {
+              "type": "socket_manipulate_object",
+              "mapItem": "Spawn_Part2_Ice9",
+              "attr": "object3D",
+              "anime": {
+                "targets": "scale",
+                "delay": 1000,
+                "loop": false,
+                "autoplay": true,
+                "easing": "linear",
+                "duration": 1000
+              },
+              "timelines": [
+                {
+                  "x": 0.02,
+                  "y": 0.02,
+                  "z": 0.02,
+                  "delay": 0,
+                  "easing": "easeInOutSine",
+                  "duration": 5000
+                }
+              ]
+            }
+          }
+        },
+        "trig": {
+          "type": "button",
+          "groupChain": "Enter_Part2_Ice9_group",
+          "time": 0
+        }
+      },
+      {
+        "name": "Enter_Participant_3_Avatar",
+        "role": "stagemanager",
+        "target": {},
+        "action": {
+          "type": "call_method_from_object",
+          "object_name": "sockSys",
+          "function_name": "cueSocket",
+          "_cue": {
+            "name": "Enter_Participant_3_Avatar",
+            "sceneLink": "https://showtimexr.com/scenes/s7qL5Fe/default-scene",
+            "role": "stagemanager",
+            "target": {
+              "role": "individual",
+              "name": "Participant3"            
+            },
+            "action": {
+              "type": "change_avatar",
+              "link": "https://showtimexr.com/files/1e2a6ab1-e92d-4014-a614-ea42adf6c98e.glb"
+            }
+          }
+        },
+        "trig": {
+          "type": "button",
+          "groupChain": "Enter_Participant_3_group",
+          "time": 0
+        }
+      },
+      {
+        "name": "Enter_Part3_Ice9_Position",
+        "role": "stagemanager",
+        "target": {},
+        "action": {
+          "type": "call_method_from_object",
+          "object_name": "sockSys",
+          "function_name": "cueSocket",
+          "_cue": {
+            "name": "Enter_Part3_Ice9_Position",
+            "sceneLink": "https://showtimexr.com/scenes/s7qL5Fe/default-scene",
+            "target": {
+              "role": "individual",
+              "name": "Participant_3",
+              "aspect": "position"
+            },
+            "action": {
+              "type": "socket_manipulate_object",
+              "mapItem": "Spawn_Part3_Ice9",
+              "attr": "object3D",
+              "anime": {
+                "targets": "position",
+                "delay": 1000,
+                "loop": false,
+                "autoplay": true,
+                "easing": "linear",
+                "duration": 1000
+              },
+              "timelines": [
+                {
+                  "x": -1,
+                  "y": 3,
+                  "z": 11,
+                  "delay": 0,
+                  "easing": "easeInOutSine",
+                  "duration": 5000
+                }
+              ]
+            }
+          }
+        },
+        "trig": {
+          "type": "button",
+          "groupChain": "Enter_Part3_Ice9_group",
+          "time": 0
+        }
+      },
+      {
+        "name": "Enter_Part3_Ice9_Scale",
+        "role": "stagemanager",
+        "target": {},
+        "action": {
+          "type": "call_method_from_object",
+          "object_name": "sockSys",
+          "function_name": "cueSocket",
+          "_cue": {
+            "name": "Enter_Part3_Ice9_Scale",
+            "sceneLink": "https://showtimexr.com/scenes/s7qL5Fe/default-scene",
+            "target": {
+              "role": "individual",
+              "name": "Participant_3",
+              "aspect": "scale"
+            },
+            "action": {
+              "type": "socket_manipulate_object",
+              "mapItem": "Spawn_Part3_Ice9",
+              "attr": "object3D",
+              "anime": {
+                "targets": "scale",
+                "delay": 1000,
+                "loop": false,
+                "autoplay": true,
+                "easing": "linear",
+                "duration": 1000
+              },
+              "timelines": [
+                {
+                  "x": 0.02,
+                  "y": 0.02,
+                  "z": 0.02,
+                  "delay": 0,
+                  "easing": "easeInOutSine",
+                  "duration": 5000
+                }
+              ]
+            }
+          }
+        },
+        "trig": {
+          "type": "button",
+          "groupChain": "Enter_Part3_Ice9_group",
+          "time": 0
+        }
+      }
+    ],
+    "objMap": {},
+    "animMap": {}
+  }
